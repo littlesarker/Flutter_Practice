@@ -19,6 +19,27 @@ The app is in the background and not visible to the user. It's still consuming m
 # Detached:
 The app is being terminated and its UI is being removed. This state is often followed by the app's process being killed.
 
+
+
 # Flutter widgets Lifecycle
-<img width="361" height="140" alt="images" src="https://github.com/user-attachments/assets/04358c44-0833-4aa6-b885-b9f1a457d98a" />
+
+<img width="893" height="346" alt="94idE" src="https://github.com/user-attachments/assets/a8a09cee-4a75-44a0-aec9-6a41d1ed74b8" />
+
+# createState():
+Called when a stateful widget is inserted into the tree. It creates and returns a new instance of the associated state object. 
+# initState():
+Called immediately after createState(). This is where you initialize data, properties, and potentially subscribe to streams. It's only called once per widget. 
+# didChangeDependencies():
+Called immediately after initState() and whenever the widget's dependencies change (e.g., InheritedWidget changes). It's often used to respond to data changes from parent widgets. 
+# build():
+Called whenever the widget needs to be re-rendered, either initially or after state changes. It describes the user interface of the widget. 
+# didUpdateWidget():
+Called when the widget is rebuilt with a new configuration. It provides access to both the old and new widgets. 
+# deactivate():
+Called when the widget is temporarily removed from the tree, such as during a rebuild. 
+# dispose():
+Called when the widget is permanently removed from the tree. This is where you should clean up resources like timers or streams to prevent memory leaks
+
+
+
 
