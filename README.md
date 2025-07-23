@@ -6,7 +6,6 @@ Flutter Learning
 
 ![b2c119ec3e914b3a8ef6ec741e8d7f9a](https://github.com/user-attachments/assets/b664ba6b-3cf2-4847-83b9-cecc0c9c82c0)
 
-# Flutter App Lifecycle
 
 <img width="850" height="692" alt="image" src="https://github.com/user-attachments/assets/1ff1550c-6ce9-4d47-b83c-9916e9e6f7d5" />
 
@@ -18,6 +17,8 @@ The app is in a transitional state, such as when a phone call is received or whe
 The app is in the background and not visible to the user. It's still consuming memory but not actively processing user input. 
 # Detached:
 The app is being terminated and its UI is being removed. This state is often followed by the app's process being killed.
+
+
 
 
 
