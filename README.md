@@ -9,3 +9,12 @@ Flutter Learning
 # Flutter App Lifecycle
 
 <img width="850" height="692" alt="image" src="https://github.com/user-attachments/assets/1ff1550c-6ce9-4d47-b83c-9916e9e6f7d5" />
+
+# Resumed:
+The app is in the foreground and actively responding to user input. This is the normal state for an app that is being used. 
+# Inactive:
+The app is in a transitional state, such as when a phone call is received or when the user switches to another app. The app is still running in the background but not accepting user input. 
+# Paused:
+The app is in the background and not visible to the user. It's still consuming memory but not actively processing user input. 
+# Detached:
+The app is being terminated and its UI is being removed. This state is often followed by the app's process being killed.
