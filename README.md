@@ -18,3 +18,7 @@ The app is in a transitional state, such as when a phone call is received or whe
 The app is in the background and not visible to the user. It's still consuming memory but not actively processing user input. 
 # Detached:
 The app is being terminated and its UI is being removed. This state is often followed by the app's process being killed.
+
+# Flutter widgets Lifecycle
+<img width="361" height="140" alt="images" src="https://github.com/user-attachments/assets/04358c44-0833-4aa6-b885-b9f1a457d98a" />
+
